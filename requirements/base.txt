@@ -1,0 +1,12 @@
+python-docx
+langchain_community
+langchain
+tqdm
+chardet
+langchain-text-splitters
+langchain_huggingface
+chromadb
+langchain_ollama
+fastapi
+uvicorn
+streamlit

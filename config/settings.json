@@ -1,0 +1,36 @@
+{
+  "ConvertorToMD":{
+    "enable_convertor": true
+  },
+
+  "Directions": {
+    "input_dir": "..\\..\\Data",
+    "Converted_dir": "..\\..\\Conversion_Data",
+    "persist_directory": "..\\..\\Vector_Store",
+    "collection_name": "Name of Collection",
+    "API_url": "http://localhost:8000"
+  },
+
+  "Chunking": {
+    "strip_headers": true,
+    "return_each_line": false
+  },
+
+  "embedding": {
+    "model_name": "HuggingFace embedding name",
+    "normalize_embeddings": true,
+    "batch_size": 32
+  },
+
+  "model": {
+    "model_name": "Ollama model name",
+    "temperature": 0.0 ,
+     "num_predict":256
+  },
+  "prompt":{
+  "system_message_llm": "Add you Prompt be sure it has ( {context} ) in the prompt",
+    "human_message_llm": "Query: {query}\n\n"
+}
+
+
+}

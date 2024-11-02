@@ -1,0 +1,6 @@
+# Ignore log Folder
+logs/
+
+# Ignore test folder
+tests/
+
